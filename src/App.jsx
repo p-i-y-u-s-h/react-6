@@ -2,6 +2,7 @@ import { useEffect } from "react"
 import { useState } from "react"
 
 function App(){
+  
   const [currentTab,setCurrentTab] = useState(1);
   const [TabData,setTabData] = useState({});
   const [loading,setLoading] = useState(true);
